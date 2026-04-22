@@ -6,8 +6,9 @@
   --main-title-color: #2e2f42;
   --main-hover-color: #404bbf;
   --accent-color: #4d5ae5;
+  --white-color: #ffffff;
+  --light-color: #f4f4fd;
 }
-
 /* ==============Default============== */
 body {
   font-size: 16px;
@@ -20,6 +21,17 @@ body {
 }
 .list {
   list-style: none;
+}
+/* =================================== */
+/* ==============Components=========== */
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--main-title-color);
 }
 /* =================================== */
 /* ==============Header=============== */
@@ -42,10 +54,10 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-title-color);
 }
-.feedback-menu {
+.contact-menu {
   font-style: normal;
 }
-.feedback {
+.contact {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -56,8 +68,8 @@ body {
 .menu-link:focus {
   color: var(--main-hover-color);
 }
-.feedback:hover,
-.feedback:focus {
+.contact:hover,
+.contact:focus {
   color: var(--main-hover-color);
 }
 /* =================================== */
@@ -66,7 +78,7 @@ body {
   background-color: var(--main-title-color);
 }
 .hero-title {
-  color: #ffffff;
+  color: var(--white-color);
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -79,7 +91,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   background-color: var(--accent-color);
-  color: #ffffff;
+  color: var(--white-color);
   cursor: pointer;
 }
 .hero-button:hover,
@@ -102,26 +114,9 @@ body {
 }
 /* =================================== */
 /* ==============Services============= */
-.services-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  text-align: center;
-  color: var(--main-title-color);
-}
+
 /* =================================== */
 /* ================Team=============== */
-.team-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  text-align: center;
-  color: var(--main-title-color);
-}
 .team-name {
   font-weight: 500;
   font-size: 20px;
@@ -148,12 +143,41 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: var(--light-color);
 }
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: var(--light-color);
 }
 /* =================================== */
+/* ==================Portfolio================== */
+.portfolio-filters-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: var(--accent-color);
+  background-color: var(--light-color);
+  cursor: pointer;
+}
+.portfolio-filters-btn:hover,
+.portfolio-filters-btn:focus {
+  color: var(--white-color);
+  background-color: var(--main-hover-color);
+}
+.portfolio-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-title-color);
+}
+.portfolio-category {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}

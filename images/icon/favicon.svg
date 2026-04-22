@@ -1,0 +1,9 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Круг -->
+  <circle cx="64" cy="64" r="64" fill="#4f5bd5"></circle>
+
+  <!-- Текст -->
+  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" fill="white" font-family="Arial, sans-serif" font-size="52" font-weight="700">
+    WS
+  </text>
+</svg>
